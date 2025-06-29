@@ -664,11 +664,3 @@ body {
     margin: 0 auto !important;
 }
 
-/* 이미지 전환 애니메이션 - GSAP으로 대체됨 */
-.portrait-image, .landscape-image, .life-image, .palace-image {
-    /* GSAP이 애니메이션을 처리하므로 CSS 애니메이션 제거 */
-}
-
-.image-container img {
-    /* GSAP이 애니메이션을 처리하므로 CSS 애니메이션 제거 */
-}
