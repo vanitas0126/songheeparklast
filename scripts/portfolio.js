@@ -839,3 +839,24 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+/* ---------- Portfolio grid: 섹션 공통 Fade+Slide ---------- */
+gsap.utils.toArray('.portfolio-item').forEach((item, i) => {
+    gsap.fromTo(
+      item,
+      { opacity: 0, y: 20 },          // 시작값 (CSS와 동일)
+      {
+        opacity: 1,
+        y: 0,                         // 제자리
+        duration: 0.6,                // 다른 요소와 같은 속도감
+        ease: 'power2.out',           // 동일 이징
+        delay: i * 0.08,              // 살짝 스태거 (0.08 s)
+        scrollTrigger: {
+          trigger: item,
+          start: 'top 90%',           // 이미지·타이틀과 같은 트리거
+          toggleActions: 'play none none reverse'
+        }
+      }
+    );
+  });
+  
