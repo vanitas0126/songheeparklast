@@ -187,27 +187,27 @@ const imageDatabase = {
         {
             title: 'Nightscape of Seoulro 7017 #1',
             description: '',
-            src: 'images/night1.png'
+            src: 'images/Night1.png'
         },
         {
             title: 'Nightscape of Seoulro 7017 #2',
             description: '',
-            src: 'images/night2.png'
+            src: 'images/Night2.png'
         },
         {
             title: 'Rose Blossom',
             description: '',
-            src: 'images/night3.png'
+            src: 'images/Night3.png'
         },
         {
             title: 'Purple Spotlight',
             description: '',
-            src: 'images/night4.png'
+            src: 'images/Night4.png'
         },
         {
             title: 'Bokeh Effect',
             description: '',
-            src: 'images/night5.png'
+            src: 'images/Night5.png'
         }
     ]
 };
