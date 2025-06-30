@@ -512,7 +512,7 @@ function setupFloatingImages() {
     
     // Define specific areas for each image to avoid overlap
     const imageAreas = [
-        { x: [-40, 60], y: [-60, 30] }   // ← 좌우 100px, 상하 90px 정도
+        { x: [-180, 180], y: [-110, 100] }
       ];
       
     
