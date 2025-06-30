@@ -512,8 +512,9 @@ function setupFloatingImages() {
     
     // Define specific areas for each image to avoid overlap
     const imageAreas = [
-        { x: [0, 32], y: [0, 32] }
-    ];
+        { x: [-40, 60], y: [-60, 30] }   // ← 좌우 100px, 상하 90px 정도
+      ];
+      
     
     floatingImages.forEach((image, index) => {
         const area = imageAreas[0];
