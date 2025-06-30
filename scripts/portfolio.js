@@ -529,7 +529,7 @@ function setupFloatingImages() {
         gsap.to(image, {
             x: () => Math.random() * (area.x[1] - area.x[0]) + area.x[0],
             y: () => Math.random() * (area.y[1] - area.y[0]) + area.y[0],
-            duration: 4 + Math.random() * 2, // 4-6 seconds
+            duration: 1 + Math.random(),
             ease: "power1.inOut",
             repeat: -1,
             yoyo: true,
@@ -539,7 +539,7 @@ function setupFloatingImages() {
         // Add more visible scale animation
         gsap.to(image, {
             scale: 0.92 + Math.random() * 0.16, // 0.92-1.08
-            duration: 5 + Math.random() * 2,
+            duration: 1.5 + Math.random() * 0.5,  // **★ 여기 (1.5 ~ 2 초)**
             ease: "power1.inOut",
             repeat: -1,
             yoyo: true,
