@@ -506,6 +506,8 @@ function setupGSAPAnimations() {
     });
 }
 
+
+
 // Setup floating images animation
 function setupFloatingImages() {
     const floatingImages = document.querySelectorAll('.floating-image');
