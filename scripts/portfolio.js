@@ -535,7 +535,9 @@ function setupFloatingImages() {
             ease: "power1.inOut",
             repeat: -1,
             yoyo: true,
-            delay: index * 0.6
+            delay: index * 0.6,
+            repeatRefresh: true,   // ★ 이 한 줄
+
         });
         
         // Add more visible scale animation
@@ -545,10 +547,14 @@ function setupFloatingImages() {
             ease: "power1.inOut",
             repeat: -1,
             yoyo: true,
-            delay: index * 0.4
+            delay: index * 0.4,
+            repeatRefresh: true,   // ★ 이 한 줄
+
         });
     });
 }
+
+
 
 // Navigate to section
 function navigateToSection(sectionId) {
